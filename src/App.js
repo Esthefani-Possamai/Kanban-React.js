@@ -48,7 +48,6 @@ export default function App() {
   };
 
   return (
-    //utilizo className e não class, pois class é como o js cria um componente de classe
     <div className="App">
         <Navbar />
       <div className="container">

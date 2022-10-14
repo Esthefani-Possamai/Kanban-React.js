@@ -11,14 +11,6 @@ export default function TaskList({
   onTaskUpdate,
   onDeleteTask
 }) {
-  // const [count, setCount] = useState(0);
-  // //quero que cada vez que eu clicar no botão, incremente 1 no count
-
-  // const increment = () => {
-  //   setCount((currentCount) => {
-  //     return currentCount + 1;
-  //   });
-  // };
 
   const addTask = () => {
     onAddTask("Nova Tarefa", taskState);
@@ -48,7 +40,6 @@ export default function TaskList({
   );
 }
 
-//posso definir o tipo da prop que será passada por parâmetro
 TaskList.propTYpes = {
   title: PropTypes.string.isRequired,
   onAddTask: PropTypes.func.isRequired,
