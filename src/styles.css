@@ -1,16 +1,76 @@
-.App {
-  background-color: white;
-  height: 100%;
-  min-height: 100vh;
-  color: black;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  background-color: #f8f8ec;
 }
 
-.container {
+html,
+body {
+  height: 100%;
+  min-height: 100vh; 
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  font-family: 'Poppins', sans-serif;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.App {
+  font-family: sans-serif;
+  height: 100%;
+  min-height: 100vh;
+  color: white;
+}
+
+.App .container {
   width: 100%;
-  max-width: 800px;
-  margin: 10%;
+  max-width: 1200px;
+  margin: auto;
   padding: 8px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 10px;
+  grid-gap: 8px;
 }
+
+::-webkit-scrollbar-track {
+  background-color: white;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #8ba6ac;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #8ba6ac;
+  border-radius: 15px; }
+

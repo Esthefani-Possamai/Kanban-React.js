@@ -50,7 +50,7 @@ export default function App() {
   return (
     //utilizo className e não class, pois class é como o js cria um componente de classe
     <div className="App">
-      <Navbar />
+        <Navbar />
       <div className="container">
         <TaskList
           title="Pendente"
@@ -79,7 +79,9 @@ export default function App() {
           onDeleteTask={deleteTask}
         />
       </div>
-      <Footer />
+      <div>
+        <Footer />
+      </div>
     </div>
   );
 }

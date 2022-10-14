@@ -1,0 +1,11 @@
+.navbar h1{
+    display: flex;
+    padding: 8px;
+    color: #8ba6ac;
+    font-weight: bold;
+    font-size: 35px;
+    justify-content: center;
+    margin: 3% 0% 1% 0%;
+
+  }
+

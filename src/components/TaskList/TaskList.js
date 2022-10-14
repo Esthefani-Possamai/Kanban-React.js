@@ -40,8 +40,9 @@ export default function TaskList({
             />
           );
         })}
-        {tasks.length === 0 && <div>Sem tarefas</div>}
-        <button onClick={addTask}>Adicionar Tarefa</button>
+        {tasks.length === 0 && <div className="empty-list">Sem tarefas</div>}
+        <button className="adicionar" onClick={addTask}>Adicionar tarefa
+        <img className="img-adi" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAcElEQVRIiWNgGAXUBN3L1hztXrb2MCl6WEi0w4qB4T9JGphItIBkMGrBCLCAEZnTvWzNUQYGBisKjTxSGhVsC+Oh+YDxH2WGMzAwMPwnLaMgg+5la/53L1tDkgFDP5JHLRh4C0isDxiPUJTORwE2AACWDxcYoSeOdwAAAABJRU5ErkJggg=="></img></button>
       </div>
     </section>
   );
