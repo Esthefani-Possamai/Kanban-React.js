@@ -1,0 +1,19 @@
+.tasklist {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+}
+
+.title {
+  width: 100%;
+  height: 100%;
+  padding: 10%;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
